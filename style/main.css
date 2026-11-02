@@ -756,3 +756,86 @@ hr {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; } }
+
+/* Cat Café theme. Keep the original tile dimensions and positions intact. */
+html, body {
+  background: #fff7f1;
+  color: #604b55;
+}
+
+body {
+  background-image: radial-gradient(#f8dce2 1.5px, transparent 1.5px);
+  background-size: 30px 30px;
+}
+
+h1.title {
+  color: #a75576;
+  text-shadow: 3px 3px 0 #f9dce5;
+}
+
+.game-intro strong, .important {
+  color: #a75576;
+}
+
+.score-container, .best-container {
+  background: #a75576;
+  border-radius: 14px;
+  box-shadow: 0 5px 0 #79445b;
+}
+
+.score-container:after, .best-container:after {
+  color: #ffe8ef;
+}
+
+.restart-button, .game-container .game-message a {
+  background: #a75576;
+  border-radius: 12px;
+  box-shadow: 0 5px 0 #79445b;
+  color: #fff;
+}
+
+.restart-button:hover, .game-container .game-message a:hover {
+  background: #bd6988;
+}
+
+.game-container {
+  background: #d8a9b5;
+  outline: 5px solid #a75576;
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(96, 75, 85, 0.2);
+}
+
+.grid-cell {
+  background: rgba(255, 247, 241, 0.48);
+  border-radius: 15px;
+}
+
+.tile .tile-inner {
+  border-radius: 15px;
+  box-shadow: inset 0 -5px rgba(96, 75, 85, 0.12);
+}
+
+.tile.tile-2 .tile-inner { background: #ffe9e0; color: #604b55; }
+.tile.tile-4 .tile-inner { background: #f9d6df; color: #604b55; }
+.tile.tile-8 .tile-inner { background: #f5b7c9; color: #604b55; }
+.tile.tile-16 .tile-inner { background: #ee98b3; color: #fff; }
+.tile.tile-32 .tile-inner { background: #df779c; color: #fff; }
+.tile.tile-64 .tile-inner { background: #ca5f89; color: #fff; }
+.tile.tile-128 .tile-inner { background: #b785c8; color: #fff; }
+.tile.tile-256 .tile-inner { background: #9874bd; color: #fff; }
+.tile.tile-512 .tile-inner { background: #776bb0; color: #fff; }
+.tile.tile-1024 .tile-inner { background: #625aa2; color: #fff; }
+.tile.tile-2048 .tile-inner { background: #e7b85c; color: #604b55; }
+
+.game-container .game-message {
+  background: rgba(255, 247, 241, 0.88);
+  border-radius: 13px;
+}
+
+.game-container .game-message.game-won {
+  background: rgba(255, 226, 190, 0.9);
+  color: #604b55;
+}
+
+a { color: #a75576; }
+hr { border-bottom-color: #eac7d0; }
